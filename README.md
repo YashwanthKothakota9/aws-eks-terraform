@@ -29,15 +29,15 @@ The infrastructure includes the following components:
 Before you begin, ensure you have the following:
 
 1. Terraform installed on your local machine.
-2. AWS CLI installed and configured with a profile (`iamadmin-general` used here).
+2. AWS CLI installed and configured.
 3. IAM permissions to create the resources mentioned above.
 
 ## Usage
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/YashwanthKothakota9/aws-eks-terraform
+   cd aws-eks-terraform
    ```
 
 2. **Initialize Terraform:**
@@ -101,4 +101,4 @@ Below is the high-level design of the architecture:
 
 ## HLD Diagram
 The following diagram provides a high-level overview of the architecture:
-![HLD](/aws-eks-terraform/HLD.png)
+![High-Level Architecture](HLD.png)
